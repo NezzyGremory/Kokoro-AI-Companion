@@ -1,0 +1,39 @@
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Python Cache & Bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Environment Variables & API Keys
+.env
+.env.*
+config.py
+
+# Database & Temporary Files
+*.db
+*.sqlite3
+database/memory.db
+
+# Dataset & Photos (Mencegah foto pribadi ter-upload)
+dataset/faces/*
+!dataset/faces/.gitkeep
+
+# Audio Output Files (File suara hasil perbincangan)
+*.mp3
+*.wav
+temp_output/
+
+# IDE & Editor Settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
